@@ -1,0 +1,76 @@
+@keyframes colores{
+    0%{
+       color:brown;
+       opacity: .6;
+    }
+    100%{
+        color:crimson;
+        opacity: .9;
+    }
+}
+@keyframes movetop{
+    0%{
+      position: relative;
+      top:-400px;
+       opacity: .0;
+    }
+    100%{
+       position: relative;
+       top:0px;
+        opacity: .9;
+    }
+}
+@keyframes moveright{
+    0%{
+      position: relative;
+      left:-200px;
+       opacity: .0;
+    }
+    100%{
+       position: relative;
+       left:0px;
+        opacity: .9;
+    }
+}
+@keyframes mediaip{
+    0%{
+      position: relative;
+      right:-50px;
+       opacity: .0;
+    }
+    100%{
+       position: relative;
+       right:200px;
+        opacity: .9;
+    }
+}
+@keyframes moveleft{
+    0%{
+      position: relative;
+      right:-100px;
+       opacity: .0;
+    }
+    100%{
+       position: relative;
+       right:0px;
+        opacity: .9;
+    }
+}
+@keyframes rotate{
+    0%{
+        transform:rotateX(100deg);
+       opacity: .0;
+    }
+    100%{
+        transform:rotateX(0deg);
+        opacity: .9;
+    }
+}
+@keyframes sizer{
+    0%{
+      font-size: 0px;
+    }
+    100%{
+      font-size:13px;
+    }
+}
